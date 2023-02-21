@@ -136,7 +136,7 @@ iframe {
 
 @media screen and (max-width: 600px) {
     .hero-text h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .hero-text p {
