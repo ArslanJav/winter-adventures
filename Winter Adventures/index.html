@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Adventures</title>
+    <!--style sheet-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <!--bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Winter Adventures</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#accomadation">Accomadation</a>
+                    <a class="nav-link" href="#service">Service</a>
+                    <a class="nav-link" href="snowboarding.html">Snowboarding</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--end of navigation-->
+    
+    <div class="header">
+
+        <header id="home">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="media/video/winter.mp4" type="video/mp4" loading="lazy">
+            </video>
+
+            <img class="mobile-image" src="media/video/mobile/mobile-home-page.jpg" alt="snowny mountains" style="display: none;" loading="lazy">
+
+            <div class="title w-500 text-white">
+                <h1 class="display-3">Holidays in the snow...</h1>
+                <p class="lead mb-0">Skiing & snowboarding accomodation</p>
+            </div>
+        </header>
+
+    </div>
+
+    <div class="container-fluid mt-5">
+
+        <div class="card-container" id="accomadation">
+            <div class="row cards">
+                <div class="col-sm mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/chalet1.jpg" alt="Card image cap" loading="lazy">
+                        <div class="card-body">
+                            <div class="h2 display-6">Tignes</div>
+                            <div class="p lead mb-2">France</div>
+                            <p class="card-text">A very well furnished chalet. The Kalinda is great for those who are
+                                after a range of facilities but don't wish to
+                                travel far. Spa's, gyms, restaurants and a ski shop are right on your doorstep.
+                            </p>
+                                <a class="more-details" href="tignes.html">More details</a>
+                              
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/chalet2.jpg" alt="Card image cap"loading="lazy">
+                        <div class="card-body">
+                            <div class="h2 display-6">Morzine</div>
+                            <div class="p lead mb-2">France</div>
+                            <p class="card-text">Situated in St Jean d'Aulps in the "Portes du Soleil" on the Grande
+                                Route des Alpes and 30 minutes south of Lake Geneva
+                                - a perfect spot for holidays all year round.
+                                A 10 minute walk from the centre of the village.
+                            </p>
+                             <a class="more-details" href="morzine.html">More details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/chalet3.jpg" alt="Card image cap"loading="lazy">
+                        <div class="card-body">
+                            <div class="h2 display-6">La Tania</div>
+                            <div class="p lead mb-2">France</div>
+                            <p class="card-text">Chalet 715 is our premier luxury chalet catering for 15 guests. We've
+                                created a unique, warm, welcoming, home away from
+                                home for all the old and new.
+                                30 minutes from Lake Geneva - a perfect spot for holidays all year round.
+
+                            </p>
+                            <a class="more-details" href="tania.html">More details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of cards-->
+
+            <!--servives-->
+            <div class="services" id="service">
+                <div class="row service">
+                    <div class="col-sm">
+                        <h2 class="display-5 text-left mx-5 px-2">Services</h2>
+                        <div class="text">
+                            Anyone who has travelled with us will know that it is the experience, quality and dedication
+                            of our ski resort teams and
+                            our in-resort ski services that really
+                            sets us apart from anything else you are likely to experience. We aim to continually exceed
+                            clients expectations and
+                            ensure every time a client skis with us,
+                            it is their best ski holiday so far.
+
+
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label ">Our childcare teams deliver a unique service,
+                                        ensuring that every child gets the attention & support they need.</label>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <input class="form-check-input me-1" type="checkbox"  value="" id="secondCheckbox">
+                                    <label class="form-check-label ">Our comprehensive range of ski programmes ensure
+                                        that all our clients enjoy their time
+                                        in the mountains.</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm image">
+                        <img src="media/ski-services.jpg" alt="services" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--contact form-->
+
+        <div class="d-flex justify-content-center p-4 text-white">
+
+            <div class="container contact" id="contact">
+                <h3 class="display-5 text-dark">Contact</h3>
+                <div class="row">
+                    <div class="contact col-sm-12">
+                        <form>
+                            <div class="form-group text-dark">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Enter your name..." required="required">
+
+                                <label for="exampleFormControlInput2">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2"
+                                    placeholder="Enter your email address..." required="required">
+
+                                <label for="exampleFormControlInput3">Postcode</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput3"
+                                    placeholder="G64 9PH..." required="required">
+
+                                <label class="list" for="exampleFormControlInput4">Please choose an accomadation...</label>
+                                <select name="Please choose an area..." id="exampleFormControlInput4">
+                                    <option value="">Choose an accomadation...</option>
+                                    <option value="Tignes">Tignes</option>
+                                    <option value="Morzine">Morzine</option>
+                                    <option value="La Tania">La Tania</option>
+                                </select>
+
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn d-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of conatct-->
+
+
+        <footer class="bg-dark text-white text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-dark text-white text-decoration-none" href="https://mdbootstrap.com/">Winter Adventures</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+
+
+    <!--bootstrap 5 js link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

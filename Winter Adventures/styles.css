@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/*set colour to variable instead of writing the hexcode everytime
+also colour can change the whole website that is affected by the colour*/
+:root {
+    --primary-color: #008ed6;
+}
+
+/*selector to reset values including margin and padding*/
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/*setting the font family to roboto throughout the page*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*navbar styling*/
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: rgb(209, 209, 209);
+    border-bottom: 2px solid #008ed6;
+    transition: all 0.5s ease-out;
+}
+
+button.navbar-toggler {
+    background-color: white;
+}
+
+.navbar {
+    border-bottom: var(--primary-color) 3px solid;
+    opacity: 0.8;
+}
+
+.container-fluid.mt-5.pt-5 {
+    padding: 0;
+}
+
+/*media query when on mobile phone video will be replaced by image*/
+
+@media (pointer: coarse) {
+    .header video {
+        display: none;
+    }
+
+    .header .mobile-image {
+        display: block !important;
+        background-image: url(media/video/mobile/mobile-home-page.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: white;
+        border-bottom: none;
+        transition: none;
+    }
+}
