@@ -142,6 +142,7 @@ iframe {
     .hero-text p {
         text-align: center;
         font-size: 0.8rem;
+        font-weight: 300;
     }
 
     .grid-container {
