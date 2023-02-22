@@ -70,7 +70,7 @@ padding: 5px;
     padding: 10px;
     border-radius: 5px;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ padding: 5px;
     background-color: var(--primary-color);
     padding-bottom: 10px;
     padding-top: 10px;
-    color: white;
+    color: var(--text-color);
 }
 
 
@@ -123,7 +123,7 @@ li.list-group-item {
     gap: 3%;
     list-style: none;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
 
 
 }
@@ -196,7 +196,7 @@ form .btn {
     display: flex;
     width: 80%;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     margin-top: 5%;
 }
 
