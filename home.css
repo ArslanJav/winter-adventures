@@ -59,6 +59,10 @@ header video {
     margin-top: 3%;
 }
 
+.display-6{
+padding: 5px;
+}
+
 /*card button styling usign width and height properties, as well as padding for the inside*/
 .more-details {
     width: 30px;
