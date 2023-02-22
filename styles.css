@@ -58,6 +58,7 @@ button.navbar-toggler {
 
     .header .mobile-image {
         display: block !important;
+        height: 100%;
         background-image: url(media/video/mobile/mobile-home-page.jpg);
         background-size: cover;
         background-position: center;
