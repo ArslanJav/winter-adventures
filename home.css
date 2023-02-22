@@ -193,6 +193,10 @@ label {
 }
 
 form .btn {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 700;
     display: flex;
     width: 80%;
     background-color: var(--primary-color);
@@ -202,6 +206,7 @@ form .btn {
 
 form .btn:hover {
     background-color: #0b7bb3;
+    color: #f3f3f3;
 }
 
 /*media queries*/
