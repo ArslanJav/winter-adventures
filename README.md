@@ -8,4 +8,4 @@ Winter adventures is a holiday spa at the Alps in France, offering a lovely cozy
 Winter adventures website is built on HTML, CSS and Bootstrap 5.
 The website is not entirely bootstraped as there are custom CSS and media quieries.
 
-##live preview: https://gorgeous-khapse-13128b.netlify.app
+## live preview: https://gorgeous-khapse-13128b.netlify.app
