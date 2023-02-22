@@ -50,6 +50,10 @@ img {
 
 /*shop grid layout*/
 
+.display-6{
+color: var(--text-color);
+}
+
 .grid-container {
     display: grid;
     margin: 50px auto;
@@ -92,7 +96,7 @@ p.text {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: 2;
-    color: pink;
+    color: white;
     font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: 2px;
