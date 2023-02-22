@@ -4,6 +4,7 @@
 also colour can change the whole website that is affected by the colour*/
 :root {
     --primary-color: #008ed6;
+    --text-color: #110933;
 }
 
 /*selector to reset values including margin and padding*/
