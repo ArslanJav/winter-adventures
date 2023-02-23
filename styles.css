@@ -57,9 +57,11 @@ button.navbar-toggler {
         display: none;
     }
 
+
     .header .mobile-image {
         display: block !important;
-        height: 100%;
+        height: 100vh;
+        width: 100%;
         background-image: url(media/video/mobile/mobile-home-page.jpg);
         background-size: cover;
         background-position: center;
