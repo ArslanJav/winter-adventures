@@ -7,13 +7,13 @@ Experience the ultimate winter getaway at Winter Adventures in the stunning Fren
 Winter adventures website is built on HTML, CSS and Bootstrap 5.
 (The website is not entirely bootstraped as there are custom CSS and media quieries.)
 
-The website is optimised for the web such as SEO, image optimazation, accessibility and speed preformance.
+The website is optimised for the web such as SEO, image optimazation, accessibility, mobile responsiveness and speed preformance.
 
 error and debugging tools used:
 
 Used HTML and CSS validator to fix errors or bugs.
 GTmetrix and PageInsights for page SEO and performance.
 TinyPNG to reduce image file size and Paint S to resize images appropriately.
-Used coolers to colour contrast for accessibility.
+Used coolers to assess contrast between two colours for accessibility.
 
 ## live preview: https://gorgeous-khapse-13128b.netlify.app
