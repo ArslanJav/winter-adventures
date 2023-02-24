@@ -79,6 +79,11 @@ padding: 5px;
     text-decoration: none;
 }
 
+.more-details:hover {
+    background-color: #0b7bb3;
+    color: #f3f3f3;
+}
+
 /*services styling*/
 
 .row.service {
@@ -272,6 +277,9 @@ form .btn:hover {
         background-color: none;
     }
 
+        .more-details:hover {
+    background-color: none;
+}
 }
 
 /*media quieries for tablets and laptops 600px and up*/
@@ -321,6 +329,10 @@ form .btn:hover {
     form .btn:hover {
         background-color: none;
     }
+    
+    .more-details:hover {
+    background-color: none;
+}
 }
 
 /* tablet landscape and desktops*/
