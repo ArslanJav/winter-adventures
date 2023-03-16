@@ -248,8 +248,10 @@ form .btn:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0px 20px 0px 60px;
+        margin: 0px 40px 0px 40px;
     }
+    
+    
 
     /*services*/
     p.text {
